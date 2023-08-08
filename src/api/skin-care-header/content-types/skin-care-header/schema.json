@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skin_care_headers",
+  "info": {
+    "singularName": "skin-care-header",
+    "pluralName": "skin-care-headers",
+    "displayName": "Skin Care Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

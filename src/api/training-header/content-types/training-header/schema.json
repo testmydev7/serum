@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_headers",
+  "info": {
+    "singularName": "training-header",
+    "pluralName": "training-headers",
+    "displayName": "Training Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
