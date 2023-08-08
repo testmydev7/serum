@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_headers",
+  "info": {
+    "singularName": "mobile-header",
+    "pluralName": "mobile-headers",
+    "displayName": "Mobile Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
