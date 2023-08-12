@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobile_heroes",
+  "info": {
+    "singularName": "mobile-hero",
+    "pluralName": "mobile-heroes",
+    "displayName": "Mobile Hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "serviceHeroTitle": {
+      "type": "string"
+    },
+    "serviceHeroImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "trainingHeroTitle": {
+      "type": "string"
+    },
+    "trainingHeroImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
