@@ -4,7 +4,8 @@
   "info": {
     "singularName": "library",
     "pluralName": "libraries",
-    "displayName": "Library"
+    "displayName": "Library",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,13 +21,18 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "textlist.items"
     }
   }
 }
