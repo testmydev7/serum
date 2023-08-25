@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_libraries",
+  "info": {
+    "singularName": "training-library",
+    "pluralName": "training-libraries",
+    "displayName": "Training Library"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "article": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Classrooms",
+        "Graduations"
+      ],
+      "required": true
+    }
+  }
+}

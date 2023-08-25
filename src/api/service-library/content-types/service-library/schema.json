@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_libraries",
+  "info": {
+    "singularName": "service-library",
+    "pluralName": "service-libraries",
+    "displayName": "Service Library"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "article": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Professionals",
+        "Transformation",
+        "Products"
+      ],
+      "required": true
+    }
+  }
+}
